@@ -135,12 +135,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne should be set to 'blue'
+//let colorOne = 'blue';
 let colorOne = 'red';
+//colorTwo  incorrect string assignement 
+//should be colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //missing colorTwo string reassignemnt
+  // add, colorTwo = 'purple';
 }
 */
 
@@ -150,8 +156,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// time is a variable not a constant.
+// should be let time = 4;
 const time = 4;
 
+//We are using the incorrect compound conditional.
+// should be using &&
+// if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,8 +174,12 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// minAge is a variable, not a constant.
+// should be let minAge = 21;
 const minAge = 21;
 
+//I am not sure if this is technically incorrect but it seems backwards to me.
+//Should be written, if (age >= minAge) {
 if(minAge <= age) {
   console.log('no entry');
 } else {
